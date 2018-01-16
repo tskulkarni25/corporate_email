@@ -6,11 +6,11 @@ require "corporate_email/version"
 Gem::Specification.new do |spec|
   spec.name          = "corporate_email"
   spec.version       = CorporateEmail::VERSION
-  spec.authors       = ["Tushar"]
+  spec.authors       = ["Tushar Kulkarni"]
   spec.email         = ["tskulkarni25@gmail.com"]
 
   spec.summary       = %q{A gem for checking if a given email is corporate or not.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/tskulkarni25/corporate_email"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|

@@ -19,10 +19,10 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-CorporateEmail::IsValid?("steve@gmail.com") # false
-CorporateEmail::IsValid?("steve@yahoo.com") # false
-CorporateEmail::IsValid?("steve@outlook.com") # false
-CorporateEmail::IsValid?("steve@apple.com") # true
+CorporateEmail::Is.valid?("steve@gmail.com") # false
+CorporateEmail::Is.valid?("steve@yahoo.com") # false
+CorporateEmail::Is.valid?("steve@outlook.com") # false
+CorporateEmail::Is.valid?("steve@apple.com") # true
 ```
 
 ## Development
